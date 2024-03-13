@@ -10,5 +10,5 @@ Using the following operations for the benchmark:
 - Simple aggregations (sum, mean, min, max)
 - Groupby aggregations
 - Window functions
-- Joins
-- Writing to a file
+- Joins (not yet implemented)
+- Writing to a file (not yet implemented)
