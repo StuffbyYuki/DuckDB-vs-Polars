@@ -25,11 +25,19 @@ I did the benchmark on an `Apple M1 MAX MacBook Pro 2021` with `64GB RAM`, `1TB 
 python -m venv env
 source env/bin/activate
 ```
-4. Run the benchmark.
+4. Install dependencies.
+```bash
+pip install -r requirements.txt
+```
+Or
+```bash
+pip install duckdb polars pyarrow pytest
+```
+5. Run the benchmark.
 ```bash
 python duckdb_vs_polars
 ```
-5. Optional: Run the following command in terminal to run unit tests. 
+6. Optional: Run the following command in terminal to run unit tests. 
 ```bash
 pytest
 ```
