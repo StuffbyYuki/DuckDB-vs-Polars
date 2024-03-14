@@ -13,8 +13,7 @@ Using the following operations for the benchmark:
 - Joins
 
 ## Result 
-I did the benchmark on an `Apple M1 MAX MacBook Pro 2021` with `64GB RAM`, `1TB SSD`, and `10‑Core CPU`.
-<br>
+I did the benchmark on an `Apple M1 MAX MacBook Pro 2021` with `64GB RAM`, `1TB SSD`, and `10‑Core CPU`.\
 ![output](./output.png)
 
 ## How to run this benchmark on your own
