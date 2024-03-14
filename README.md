@@ -49,3 +49,6 @@ pytest
     - `.arrow()` is used to materialize the query results for the benchmark. It was the fastest out of `.arrow()`, `.pl()`, `.df()`, and `.fetchall()` (in the order of speed for the benchmark queries). 
     - You could argue that you could use `.execute()`, but it might not properly reflect the full execution time because the final pipeline won't get executed until a result collecting method is called. Refer to [the discussion on DuckDB discord](https://discord.com/channels/909674491309850675/921100786098901042/1217841718066413648) on this topic.
     - Polars has the `.collect()` method that materializes a full dataframe.
+
+## Future Plans for This Benchmark
+Although, I don't have solid plans on how I want this repo to be, I plan on periodically run this benchmark as tools improve and get updates quickly. And potentially adding more queries to the benchmark down the road. 
