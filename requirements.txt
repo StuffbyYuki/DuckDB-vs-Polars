@@ -11,6 +11,7 @@ pandas==2.2.1
 pillow==10.2.0
 pluggy==1.4.0
 polars==0.20.15
+pyarrow==15.0.1
 pyparsing==3.1.2
 pytest==8.1.1
 python-dateutil==2.9.0.post0

@@ -15,7 +15,7 @@ def groupby_agg_duckdb(file_path):
             payment_type
         ;
     '''
-    return duckdb.sql(query).execute()
+    return duckdb.sql(query).arrow()
 
 if __name__ == '__main__':
     print(groupby_agg_duckdb('data/2021_Yellow_Taxi_Trip_Data.csv'))

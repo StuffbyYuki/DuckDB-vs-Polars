@@ -29,7 +29,7 @@ def join_duckdb(file_path):
             using (VendorID, payment_type, pickup_month) 
         ;
     '''
-    return duckdb.sql(query).execute()
+    return duckdb.sql(query).arrow()
 
 if __name__ == '__main__':
     print(join_duckdb('data/2021_Yellow_Taxi_Trip_Data.csv'))
