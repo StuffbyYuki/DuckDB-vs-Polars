@@ -43,3 +43,8 @@ python duckdb_vs_polars
 pytest
 ```
 
+## Notes/Limitations
+- All the queries used for the benchmark are created by Yuki (repo owner). If you think they can be improved or want to add other queries for the benchmark, please feel free to make your own or make a pull request. 
+- Benchmarking DuckDB queries is tricky because result collecting methods such as `.arrow()`, `.pl()`, `.df()`, and `.fetchall()` in DuckDB can make sure the full query gets executed, but it also dilutes the benchmark because then non-core systems are being mixed in.
+    - You could argue that you could use `.execute()`, but it might not properly reflect the full execution time because the final pipeline won't get executed until a result collecting method is called. Refer to [the discussion on DuckDB discord](https://discord.com/channels/909674491309850675/921100786098901042/1217841718066413648) on this topic.
+    - Polars has the `.collect()` method that materializes a full dataframe.
