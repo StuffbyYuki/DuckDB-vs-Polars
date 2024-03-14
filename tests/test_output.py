@@ -62,7 +62,7 @@ def test_groupby_agg(lf):
     assert_frame_equal(polars_df, duckdb_df)
 
 
-def test_window_func_agg(lf):
+def test_window_func(lf):
     polars_df = (
         lf
         .select(
