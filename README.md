@@ -10,5 +10,7 @@ Using the following operations for the benchmark:
 - Simple aggregations (sum, mean, min, max)
 - Groupby aggregations
 - Window functions
-- Joins (not yet implemented)
-- Writing to a file (not yet implemented)
+- Joins
+
+## Result 
+![output](./output.png)
