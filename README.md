@@ -24,7 +24,7 @@ python -m venv env
 source env/bin/activate
 ```
 4. Run the benchmark.
- ```bash
+```bash
 python duckdb_vs_polars
 ```
 5. Optional: Run the following command in terminal to run unit tests. 
