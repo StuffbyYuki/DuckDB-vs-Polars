@@ -18,7 +18,7 @@ I did the benchmark on an `Apple M1 MAX MacBook Pro 2021` with `64GB RAM`, `1TB 
 \
 ![output](./output.png)
 
-## How to run this benchmark on your own
+## How to Run This Benchmark on Your Own
 1. Download the csv file at: [2021 Yellow Taxi Trip](https://data.cityofnewyork.us/Transportation/2021-Yellow-Taxi-Trip-Data/m6nq-qud6/about_data).
 2. Create `data` folder at the top level in the repo and place the csv file in the folder. The path the the file should be: `data/2021_Yellow_Taxi_Trip_Data.csv`. If you name it differently then you'll need to adjust the file path in the Python script(s).
 3. Make sure you're in the virtual environment. 
