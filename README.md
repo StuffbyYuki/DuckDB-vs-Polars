@@ -1,5 +1,6 @@
 # DuckDB vs Polars
 Unofficial Benchmarking on Performance Difference Between DuckDB and Polars.
+Here's [the link to a blog post](https://medium.com/@yukithejapanese/duckdb-vs-polars-which-one-is-faster-61e73a7680e0) of this benchmark.
 
 ## Data
 [2021 Yellow Taxi Trip](https://data.cityofnewyork.us/Transportation/2021-Yellow-Taxi-Trip-Data/m6nq-qud6/about_data) that contains 30M rows with 18 columns. It's about 3GB in size on disk. 
