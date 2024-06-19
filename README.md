@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ```
 Or
 ```bash
-pip install duckdb polars pyarrow pytest
+pip install duckdb polars pyarrow pytest seaborn
 ```
 5. Run the benchmark.
 ```bash
